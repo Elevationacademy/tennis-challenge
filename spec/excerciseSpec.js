@@ -14,7 +14,6 @@ afterEach(function() {
 describe("playerOneScores", function () {
   it("should increase player one's score by one", function () {
     game.playerOneScores();
-
     expect(game.playerOneScore).toEqual(1);
   });
 });
